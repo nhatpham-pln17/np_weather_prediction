@@ -1,0 +1,18 @@
+{
+  "fastapi_app": {
+    "method": "fastapi_app",
+    "args": {}
+  },
+  "model": {
+    "method": "load_pickle_object",
+    "args": {
+      "filename": "resources/model.pkl"
+    }
+  },
+  "data_pipeline": {
+    "method": "load_pickle_object",
+    "args": {
+      "filename": "resources/scale.pkl"
+    }
+  }
+}
